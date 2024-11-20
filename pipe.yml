@@ -1,7 +1,7 @@
 name: Aqua Security Trivy
 description: Scans container images for vulnerabilities with Trivy
 
-image: wollomatic/trivy-pipe:latest
+image: unicorndomaindevops/trivy-pipe:latest
 category: Security
 
 variables:
@@ -77,11 +77,11 @@ variables:
     required: false
     default: ''
 
-repository: https://github.com/wollomatic/trivy-pipe
+repository: https://github.com/unicorndomaingr/trivy-pipe
 maintainer: 
-  name: W. Ellsaesser
-  website: https://wollomatic.de
-  email: github@wollomatic.de
+  name: Babis Kaidos
+  website: https://www.unicorndomain.gr
+  email: ckaidos@unicorndomain.gr
 
 vendor:
   name: Aquasecurity

@@ -27,6 +27,6 @@ jobs:
       with:
         context: .
         tags: |
-          wollomatic/trivy-pipe:latest 
-          wollomatic/trivy-pipe:${{github.ref_name}}
+          unicorndomaindevops/trivy-pipe:latest 
+          unicorndomaindevops/trivy-pipe:${{github.ref_name}}
         push: true
